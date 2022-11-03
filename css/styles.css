@@ -7,11 +7,8 @@
 /*колір основного фону #F5F5F5;*/
 /*вторинний колір фону #F5F4FA;*/
 /*колір шапки та футера #2F303A;*/
-
-/*
-font-family: 'Raleway', sans-serif;
-font-family: 'Roboto', sans-serif;
-*/
+/*font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;*/
 
 :root {
   --primary-text-color: #212121;
@@ -25,16 +22,28 @@ font-family: 'Roboto', sans-serif;
   --nav-bg-color: #2f303a;
 }
 
-/** {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
   margin: 0;
   padding: 0;
-}*/
+}
 
 body {
   font-family: "Roboto", sans-serif;
   background-color: var(--primary-bg-color);
   color: var(--title-text-color);
 }
+
 
 /*---------------------------Верхня лінія------------------------------*/
 .header-nav {
@@ -102,6 +111,14 @@ body {
 .contacts-link:hover,
 .contacts-link:focus {
   color: var(--accent-color);
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px solid red;
 }
 
 /*---------------------------------Шапка------------------------------*/
