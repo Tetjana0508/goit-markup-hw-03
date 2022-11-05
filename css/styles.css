@@ -162,7 +162,8 @@ body {
 }
 
 .hero-button {
-  padding: 10px 32px;
+  min-width: 216px;
+  height: 50px;
   display: block;
   margin: 0 auto;
   font-family: inherit;
@@ -204,10 +205,18 @@ body {
   letter-spacing: 0.03em;
 }
 
+.features-list {
+  display: flex;
+  padding: 0px 250px;
+  gap: 30px;
+}
+
 .features-list p {
   font-size: 14px;
   line-height: 1.7143;
   letter-spacing: 0.03em;
+  display: flex;
+  gap: 30px;
 }
 
 /*--------------------------------Чим ми займаємося------------------*/
@@ -307,15 +316,20 @@ body {
 
 /*--------------------------------Портфоліо------------------------------*/
 .filter-button {
-  padding-top: 174px;
-  padding-bottom: 94px;
+  padding-top: 180px;
+  padding-bottom: 50px;
 }
 
 .buttons {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
   padding-bottom: 50px;
 }
 
 .button-filters {
+  align-items: center;
+  padding: 6px 22px;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -325,10 +339,17 @@ body {
   background-color: var(--secondary-bg-color);
   border: none;
   cursor: pointer;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 
 .button-filters:hover,
 .button-filters:focus {
+  color: var(--subject-color);
+  background-color: var(--accent-color);
+}
+
+.button-filters.current {
   color: var(--subject-color);
   background-color: var(--accent-color);
 }
