@@ -140,7 +140,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 2px solid red;
+  /*outline: 2px solid red;*/
 }
 
 /*---------------------------------Шапка------------------------------*/
@@ -207,7 +207,6 @@ body {
 
 .features-list {
   display: flex;
-  /*padding: 0px 250px;*/
   gap: 30px;
 }
 
@@ -283,10 +282,6 @@ body {
   gap: 30px;
 }
 
-/*.user-list p:last-of-type {
-  margin-bottom: 0;
-  color: #2196f3;
-}*/
 
 /*---------------------------------Футер--------------------------------*/
 .footer-nav {
@@ -334,8 +329,8 @@ body {
 
 /*--------------------------------Портфоліо------------------------------*/
 .filter-button {
-  padding-top: 180px;
-  padding-bottom: 50px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .buttons {
@@ -372,6 +367,15 @@ body {
   background-color: var(--accent-color);
 }
 
+.filter {
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
 .filter .filter-list {
   background-color: var(--subject-color);
 }
@@ -386,6 +390,7 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
+  padding: 0px 24px;
 }
 
 .filter-text {
@@ -393,12 +398,9 @@ body {
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;
+  padding: 0px 24px;
 }
 
 .filter-text .text p{
   margin-bottom: 0;
 }
-/*.filter-text:last-child {
-  margin-bottom: 0;
-}*/
-/*:not(:last-child)*/
