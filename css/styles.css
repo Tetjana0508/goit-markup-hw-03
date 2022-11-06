@@ -369,12 +369,9 @@ body {
 }
 
 .filter {
-  /*width: calc((100% - 60px) / 3);*/
-  margin-right: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
   gap: 30px;
 }
 
@@ -383,17 +380,15 @@ body {
 }
 
 .filter-list {
-  width: 370px;
-  height: 404px;
+  display: block;
 }
 
-/*.filter-image {
-  width: 370px;
-  height: 294px;
-}*/
+.filter-image {
+  display: block;
+}
 
 .section-title {
-  /*margin-bottom: 4px;*/
+  margin-bottom: 4px;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
