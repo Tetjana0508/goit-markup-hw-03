@@ -71,6 +71,7 @@ body {
   padding-top: 24px;
   padding-bottom: 25px;
   background-color: var(--subject-color);
+  border-bottom: 1px solid #ECECEC;
 }
 
 .header-nav a {
@@ -368,6 +369,7 @@ body {
 }
 
 .filter {
+  /*width: calc((100% - 60px) / 3);*/
   margin-right: auto;
   display: flex;
   flex-wrap: wrap;
@@ -380,9 +382,15 @@ body {
   background-color: var(--subject-color);
 }
 
-.filter-image {
-  margin-bottom: 20px;
+.filter-list {
+  width: 370px;
+  height: 404px;
 }
+
+/*.filter-image {
+  width: 370px;
+  height: 294px;
+}*/
 
 .section-title {
   margin-bottom: 4px;
@@ -391,6 +399,12 @@ body {
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
   padding: 0px 24px;
+  padding-top: 20px;
+}
+
+.filter-block {
+  border: 1px solid #EEEEEE;
+  border-top: transparent;
 }
 
 .filter-text {
