@@ -207,7 +207,7 @@ body {
 
 .features-list {
   display: flex;
-  padding: 0px 250px;
+  /*padding: 0px 250px;*/
   gap: 30px;
 }
 
@@ -225,6 +225,7 @@ body {
 }
 
 .heading {
+  text-align: center;
   font-size: 36px;
   line-height: 1.1667;
   letter-spacing: 0.03em;
@@ -233,6 +234,14 @@ body {
   margin-bottom: 50px;
   color: var(--primary-text-color);
 }
+
+.specialty-list {
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
 
 /*-----------------------------------Наша команда------------------*/
 .section-user {
@@ -256,6 +265,7 @@ body {
   font-size: 16px;
   line-height: 1.1875;
   letter-spacing: 0.03em;
+  text-align: center;
   color: var(--primary-text-color);
 }
 .user-list p {
@@ -263,6 +273,14 @@ body {
   font-size: 16px;
   line-height: 1.1875;
   letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.user-list {
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }
 
 /*.user-list p:last-of-type {
