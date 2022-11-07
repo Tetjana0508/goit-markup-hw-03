@@ -141,7 +141,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  /*outline: 2px solid red;*/
+  outline: 2px solid red;
 }
 
 /*---------------------------------Шапка------------------------------*/
@@ -152,7 +152,8 @@ body {
 }
 
 .hero-title {
-  padding: 0px 280px 0px 280px;
+  width: 696px;
+  margin: 0 auto; 
   font-weight: 900;
   font-size: 44px;
   line-height: 1.3636;
