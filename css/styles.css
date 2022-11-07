@@ -307,25 +307,29 @@ body {
   background-color: var(--nav-bg-color);
 }
 
-.footer-nav .footer {
-  margin-bottom: 20px;
+.logo .footer {
+  padding-bottom: 30px;
 }
 
 .footer-nav a {
   text-decoration: none;
-  margin-bottom: 10px;
 }
 
 .footer-nav a:last-child {
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 
 .foorer-logo,
 .addres {
   color: var(--subject-color);
 }
+
 .nav-link {  
   color: var(--footer-link-color);
+}
+
+.nav-link > .a {
+margin-bottom: 9px;
 }
 
 .addres,
@@ -348,13 +352,14 @@ body {
 .filter-button {
   padding-top: 94px;
   padding-bottom: 94px;
+  background-color: #ffffff;
 }
 
 .buttons {
   display: flex;
   justify-content: center;
   gap: 8px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .button-filters {
@@ -369,8 +374,6 @@ body {
   background-color: var(--secondary-bg-color);
   border: none;
   cursor: pointer;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
 }
 
 .button-filters:hover,
@@ -403,29 +406,28 @@ body {
   display: block;
 }
 
+.filter-block {
+  border: 1px solid #EEEEEE;
+  border-top: transparent;
+  /*margin-top: 20px;
+  margin-bottom: 20px;*/
+  padding: 20px 24px;
+}
+
 .section-title {
   margin-bottom: 4px;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
-  padding: 0px 24px;
-  padding-top: 20px;
-}
-
-.filter-block {
-  border: 1px solid #EEEEEE;
-  border-top: transparent;
 }
 
 .filter-text {
-  margin-bottom: 20px;
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;
-  padding: 0px 24px;
 }
 
-.filter-text .text p{
+/*.filter-text .text p{
   margin-bottom: 0;
-}
+}*/
